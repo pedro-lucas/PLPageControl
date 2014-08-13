@@ -21,6 +21,7 @@
 		EBDF9E53199BD2A400054144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E35199BD2A400054144 /* UIKit.framework */; };
 		EBDF9E5B199BD2A400054144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBDF9E59199BD2A400054144 /* InfoPlist.strings */; };
 		EBDF9E5D199BD2A400054144 /* PagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E5C199BD2A400054144 /* PagerTests.m */; };
+		EBDF9E68199BD2E000054144 /* PLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E67199BD2E000054144 /* PLPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EBDF9E58199BD2A400054144 /* PagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagerTests-Info.plist"; sourceTree = "<group>"; };
 		EBDF9E5A199BD2A400054144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBDF9E5C199BD2A400054144 /* PagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerTests.m; sourceTree = "<group>"; };
+		EBDF9E66199BD2E000054144 /* PLPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPageControl.h; sourceTree = "<group>"; };
+		EBDF9E67199BD2E000054144 /* PLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				EBDF9E43199BD2A400054144 /* Main.storyboard */,
 				EBDF9E46199BD2A400054144 /* PLViewController.h */,
 				EBDF9E47199BD2A400054144 /* PLViewController.m */,
+				EBDF9E66199BD2E000054144 /* PLPageControl.h */,
+				EBDF9E67199BD2E000054144 /* PLPageControl.m */,
 				EBDF9E49199BD2A400054144 /* Images.xcassets */,
 				EBDF9E38199BD2A400054144 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				EBDF9E42199BD2A400054144 /* PLAppDelegate.m in Sources */,
 				EBDF9E48199BD2A400054144 /* PLViewController.m in Sources */,
 				EBDF9E3E199BD2A400054144 /* main.m in Sources */,
+				EBDF9E68199BD2E000054144 /* PLPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				EBDF9E62199BD2A400054144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBDF9E63199BD2A400054144 /* Build configuration list for PBXNativeTarget "PagerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				EBDF9E65199BD2A400054144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

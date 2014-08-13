@@ -7,12 +7,23 @@
 //
 
 #import "PLViewController.h"
+#import "PLPageControl.h"
 
 @interface PLViewController ()
+
+@property (weak, nonatomic) IBOutlet PLPageControl *pager;
 
 @end
 
 @implementation PLViewController
+
+- (IBAction)actionNext:(UIButton *)sender {
+    self.pager.currentPage++;
+}
+
+- (IBAction)actionPrevious:(UIButton *)sender {
+    self.pager.currentPage--;
+}
 
 - (void)viewDidLoad
 {
