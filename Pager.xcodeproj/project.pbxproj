@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBDF9E32199BD2A400054144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E31199BD2A400054144 /* Foundation.framework */; };
+		EBDF9E34199BD2A400054144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E33199BD2A400054144 /* CoreGraphics.framework */; };
+		EBDF9E36199BD2A400054144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E35199BD2A400054144 /* UIKit.framework */; };
+		EBDF9E3C199BD2A400054144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBDF9E3A199BD2A400054144 /* InfoPlist.strings */; };
+		EBDF9E3E199BD2A400054144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E3D199BD2A400054144 /* main.m */; };
+		EBDF9E42199BD2A400054144 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E41199BD2A400054144 /* PLAppDelegate.m */; };
+		EBDF9E45199BD2A400054144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDF9E43199BD2A400054144 /* Main.storyboard */; };
+		EBDF9E48199BD2A400054144 /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E47199BD2A400054144 /* PLViewController.m */; };
+		EBDF9E4A199BD2A400054144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDF9E49199BD2A400054144 /* Images.xcassets */; };
+		EBDF9E51199BD2A400054144 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E50199BD2A400054144 /* XCTest.framework */; };
+		EBDF9E52199BD2A400054144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E31199BD2A400054144 /* Foundation.framework */; };
+		EBDF9E53199BD2A400054144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDF9E35199BD2A400054144 /* UIKit.framework */; };
+		EBDF9E5B199BD2A400054144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBDF9E59199BD2A400054144 /* InfoPlist.strings */; };
+		EBDF9E5D199BD2A400054144 /* PagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF9E5C199BD2A400054144 /* PagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDF9E54199BD2A400054144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDF9E26199BD2A400054144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDF9E2D199BD2A400054144;
+			remoteInfo = Pager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBDF9E2E199BD2A400054144 /* Pager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDF9E31199BD2A400054144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBDF9E33199BD2A400054144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBDF9E35199BD2A400054144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBDF9E39199BD2A400054144 /* Pager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pager-Info.plist"; sourceTree = "<group>"; };
+		EBDF9E3B199BD2A400054144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBDF9E3D199BD2A400054144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBDF9E3F199BD2A400054144 /* Pager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pager-Prefix.pch"; sourceTree = "<group>"; };
+		EBDF9E40199BD2A400054144 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		EBDF9E41199BD2A400054144 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		EBDF9E44199BD2A400054144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBDF9E46199BD2A400054144 /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		EBDF9E47199BD2A400054144 /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		EBDF9E49199BD2A400054144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBDF9E4F199BD2A400054144 /* PagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDF9E50199BD2A400054144 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBDF9E58199BD2A400054144 /* PagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagerTests-Info.plist"; sourceTree = "<group>"; };
+		EBDF9E5A199BD2A400054144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBDF9E5C199BD2A400054144 /* PagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDF9E2B199BD2A400054144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E34199BD2A400054144 /* CoreGraphics.framework in Frameworks */,
+				EBDF9E36199BD2A400054144 /* UIKit.framework in Frameworks */,
+				EBDF9E32199BD2A400054144 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDF9E4C199BD2A400054144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E51199BD2A400054144 /* XCTest.framework in Frameworks */,
+				EBDF9E53199BD2A400054144 /* UIKit.framework in Frameworks */,
+				EBDF9E52199BD2A400054144 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDF9E25199BD2A400054144 = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E37199BD2A400054144 /* Pager */,
+				EBDF9E56199BD2A400054144 /* PagerTests */,
+				EBDF9E30199BD2A400054144 /* Frameworks */,
+				EBDF9E2F199BD2A400054144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDF9E2F199BD2A400054144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E2E199BD2A400054144 /* Pager.app */,
+				EBDF9E4F199BD2A400054144 /* PagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDF9E30199BD2A400054144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E31199BD2A400054144 /* Foundation.framework */,
+				EBDF9E33199BD2A400054144 /* CoreGraphics.framework */,
+				EBDF9E35199BD2A400054144 /* UIKit.framework */,
+				EBDF9E50199BD2A400054144 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBDF9E37199BD2A400054144 /* Pager */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E40199BD2A400054144 /* PLAppDelegate.h */,
+				EBDF9E41199BD2A400054144 /* PLAppDelegate.m */,
+				EBDF9E43199BD2A400054144 /* Main.storyboard */,
+				EBDF9E46199BD2A400054144 /* PLViewController.h */,
+				EBDF9E47199BD2A400054144 /* PLViewController.m */,
+				EBDF9E49199BD2A400054144 /* Images.xcassets */,
+				EBDF9E38199BD2A400054144 /* Supporting Files */,
+			);
+			path = Pager;
+			sourceTree = "<group>";
+		};
+		EBDF9E38199BD2A400054144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E39199BD2A400054144 /* Pager-Info.plist */,
+				EBDF9E3A199BD2A400054144 /* InfoPlist.strings */,
+				EBDF9E3D199BD2A400054144 /* main.m */,
+				EBDF9E3F199BD2A400054144 /* Pager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBDF9E56199BD2A400054144 /* PagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E5C199BD2A400054144 /* PagerTests.m */,
+				EBDF9E57199BD2A400054144 /* Supporting Files */,
+			);
+			path = PagerTests;
+			sourceTree = "<group>";
+		};
+		EBDF9E57199BD2A400054144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF9E58199BD2A400054144 /* PagerTests-Info.plist */,
+				EBDF9E59199BD2A400054144 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDF9E2D199BD2A400054144 /* Pager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDF9E60199BD2A400054144 /* Build configuration list for PBXNativeTarget "Pager" */;
+			buildPhases = (
+				EBDF9E2A199BD2A400054144 /* Sources */,
+				EBDF9E2B199BD2A400054144 /* Frameworks */,
+				EBDF9E2C199BD2A400054144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pager;
+			productName = Pager;
+			productReference = EBDF9E2E199BD2A400054144 /* Pager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDF9E4E199BD2A400054144 /* PagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDF9E63199BD2A400054144 /* Build configuration list for PBXNativeTarget "PagerTests" */;
+			buildPhases = (
+				EBDF9E4B199BD2A400054144 /* Sources */,
+				EBDF9E4C199BD2A400054144 /* Frameworks */,
+				EBDF9E4D199BD2A400054144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDF9E55199BD2A400054144 /* PBXTargetDependency */,
+			);
+			name = PagerTests;
+			productName = PagerTests;
+			productReference = EBDF9E4F199BD2A400054144 /* PagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDF9E26199BD2A400054144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					EBDF9E4E199BD2A400054144 = {
+						TestTargetID = EBDF9E2D199BD2A400054144;
+					};
+				};
+			};
+			buildConfigurationList = EBDF9E29199BD2A400054144 /* Build configuration list for PBXProject "Pager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDF9E25199BD2A400054144;
+			productRefGroup = EBDF9E2F199BD2A400054144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDF9E2D199BD2A400054144 /* Pager */,
+				EBDF9E4E199BD2A400054144 /* PagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDF9E2C199BD2A400054144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E4A199BD2A400054144 /* Images.xcassets in Resources */,
+				EBDF9E3C199BD2A400054144 /* InfoPlist.strings in Resources */,
+				EBDF9E45199BD2A400054144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDF9E4D199BD2A400054144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E5B199BD2A400054144 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDF9E2A199BD2A400054144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E42199BD2A400054144 /* PLAppDelegate.m in Sources */,
+				EBDF9E48199BD2A400054144 /* PLViewController.m in Sources */,
+				EBDF9E3E199BD2A400054144 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDF9E4B199BD2A400054144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDF9E5D199BD2A400054144 /* PagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDF9E55199BD2A400054144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDF9E2D199BD2A400054144 /* Pager */;
+			targetProxy = EBDF9E54199BD2A400054144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDF9E3A199BD2A400054144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDF9E3B199BD2A400054144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBDF9E43199BD2A400054144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDF9E44199BD2A400054144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBDF9E59199BD2A400054144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDF9E5A199BD2A400054144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDF9E5E199BD2A400054144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBDF9E5F199BD2A400054144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDF9E61199BD2A400054144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pager/Pager-Prefix.pch";
+				INFOPLIST_FILE = "Pager/Pager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBDF9E62199BD2A400054144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pager/Pager-Prefix.pch";
+				INFOPLIST_FILE = "Pager/Pager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBDF9E64199BD2A400054144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pager.app/Pager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pager/Pager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PagerTests/PagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBDF9E65199BD2A400054144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pager.app/Pager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pager/Pager-Prefix.pch";
+				INFOPLIST_FILE = "PagerTests/PagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDF9E29199BD2A400054144 /* Build configuration list for PBXProject "Pager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDF9E5E199BD2A400054144 /* Debug */,
+				EBDF9E5F199BD2A400054144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDF9E60199BD2A400054144 /* Build configuration list for PBXNativeTarget "Pager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDF9E61199BD2A400054144 /* Debug */,
+				EBDF9E62199BD2A400054144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBDF9E63199BD2A400054144 /* Build configuration list for PBXNativeTarget "PagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDF9E64199BD2A400054144 /* Debug */,
+				EBDF9E65199BD2A400054144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBDF9E26199BD2A400054144 /* Project object */;
+}
