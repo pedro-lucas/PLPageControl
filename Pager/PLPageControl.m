@@ -69,7 +69,11 @@
     [self setActiveView:[[UIView alloc] init]];
     [self.activeView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
     
-    [self setColorActive:self.tintColor];
+    if([self respondsToSelector:@selector(tintColor)]) {
+        [self setColorActive:self.tintColor];
+    }else{
+        [self setColorActive:[UIColor colorWithRed:254./255. green:91./255. blue:12./255. alpha:1.]];
+    }
     
     [self setCanAnimate:YES];
     
